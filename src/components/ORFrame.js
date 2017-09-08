@@ -473,7 +473,7 @@ class orFrame extends React.Component {
         oLabels = (
           <g
             key="orframe-labels-container"
-            className="oframe-labels-container"
+            className="orframe-labels-container"
             transform={"translate(0," + (15 + rScale.range()[1]) + ")"}
           >
             {labelArray}
@@ -483,7 +483,7 @@ class orFrame extends React.Component {
         oLabels = (
           <g
             key="orframe-labels-container"
-            className="oframe-labels-container"
+            className="orframe-labels-container"
             transform={"translate(0,0)"}>
             {labelArray}
           </g>
@@ -492,7 +492,7 @@ class orFrame extends React.Component {
         oLabels = (
           <g 
             key="orframe-labels-container"
-            className="oframe-labels-container"
+            className="orframe-labels-container"
             transform={"translate(0,0)"}>
             {labelArray}
           </g>

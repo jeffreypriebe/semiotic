@@ -468,6 +468,7 @@ class orFrame extends React.Component {
         oLabels = (
           <g
             key="orframe-labels-container"
+            className="orframe-labels-container"
             transform={"translate(0," + (15 + rScale.range()[1]) + ")"}
           >
             {labelArray}
@@ -475,13 +476,19 @@ class orFrame extends React.Component {
         );
       } else if (projection === "horizontal") {
         oLabels = (
-          <g key="orframe-labels-container" transform={"translate(0,0)"}>
+          <g
+            key="orframe-labels-container"
+            className="orframe-labels-container"
+            transform={"translate(0,0)"}>
             {labelArray}
           </g>
         );
       } else if (projection === "radial") {
         oLabels = (
-          <g key="orframe-labels-container" transform={"translate(0,0)"}>
+          <g 
+            key="orframe-labels-container"
+            className="orframe-labels-container"
+            transform={"translate(0,0)"}>
             {labelArray}
           </g>
         );
